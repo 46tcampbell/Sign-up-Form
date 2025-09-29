@@ -68,10 +68,39 @@ body {
 aside {
   background: url('dream.jpg') center/cover no-repeat;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
 }
 
 main {
   flex: 2;
+}
+
+.dream-logo {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: antiquewhite;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+div.image-sidebar-footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 4rem;
+  color: antiquewhite;
+  font-size: 0.8rem;
+}
+
+div.image-sidebar-footer a {
+  color: antiquewhite;
 }
 
 /* Google font */
