@@ -107,9 +107,11 @@ main {
 div.image-sidebar-footer {
   position: absolute;
   bottom: 1rem;
-  left: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
   color: antiquewhite;
   font-size: 0.8rem;
+  white-space: nowrap;
 }
 
 div.image-sidebar-footer a {
